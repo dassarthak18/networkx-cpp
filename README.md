@@ -9,3 +9,10 @@ Header-only C++ wrapper for Python3 networkx library. Reads graphs from a text f
 Can be extended easily to include more networkx functions by modifying graph.py and graph.h.  
 
 Example of usage given in example.cpp.
+
+Requires python3 networkx package to work, which can be installed using the bash command:
+
+```shell
+   sudo apt install python3 python3-pip
+   sudo pip3 install networkx
+```
